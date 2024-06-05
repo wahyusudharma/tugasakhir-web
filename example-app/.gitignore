@@ -1,0 +1,40 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/public/hot
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+.env.testing
+
+# Laravel generated files
+/storage/app/public
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+
+# Composer
+/vendor/
+/composer.lock
+
+# Node
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log
+
+# Other typical ignores
+/.vscode/
+/.idea/
+/.DS_Store
+Thumbs.db
+*.log
+
+# Other environments or editors you may use
+*.sublime-workspace
+*.sublime-project
